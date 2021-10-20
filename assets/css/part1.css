@@ -1,0 +1,92 @@
+body {
+    background: #1D1A2F;
+    font-family: 'Open Sans';
+}
+
+.page {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    color:white;
+    padding: 0 30px;
+}
+
+.page .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page hr {
+    width: 100%;
+    margin-top: 25px;
+    border-bottom-color: #707070;
+    opacity: 0.4;
+}
+.page h4 {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    max-width: 90%;
+}
+
+.page .buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    margin-top: 15px;
+}
+.page .buttons .facebook {
+    display: block;
+    width: 100%;
+    color: white;
+    background: rgba(255,255,255,0.1);
+    border:none;
+    height: 44px;
+    border-radius: 10px;
+    border:1px solid #fff;
+    margin-bottom: 15px;
+}
+.page .buttons .buttonsbottom { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.page .buttons .buttonsbottom button {
+    width: 50%;
+    height: 44px;
+    color:white;
+    border:none;
+    background: rgba(255,255,255,0.1);
+    border-radius: 10px; 
+}
+
+.page .buttons .buttonsbottom button:first-child {
+    margin-right: 15px;
+}
+
+.page .bottom {
+    position: absolute;
+    bottom:25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.page .bottom button {
+    position: relative;
+    display: block;
+    width: 85%;
+    border:none; 
+    background: rgba(255,255,255,0.1);
+    height: 44px;
+    color:white;
+    border-radius: 10px;
+}
